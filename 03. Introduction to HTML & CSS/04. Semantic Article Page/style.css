@@ -1,0 +1,26 @@
+body{
+    background-color: #e4e978;
+}
+
+article{
+    width: 700px;
+    background-color: #f2f4c0;
+    margin: 15px 10px;
+    padding: 5px 15px;
+    border: 1px solid #b2ad7d;
+}
+
+section{
+    width: 700px;
+    /* color: #4c7658; */
+    color: #5c6e91;
+    font-style: italic;
+}
+
+/* •	
+
+
+•	background colors: #f2f4c0, #e4e978, #4c7658;
+•	width: 700px
+•	
+•	margin: 15px 10px; */
