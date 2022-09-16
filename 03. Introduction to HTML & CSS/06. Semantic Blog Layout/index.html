@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Semantic Blog Layout</title>
 </head>
 
@@ -17,18 +18,21 @@
             Developer News
 
         </h1>
-        <ul>
-            <li>
-                <a>
-                    HTML
-                </a>
-            </li>
-            <li>
-                <a>
-                    JavaScript
-                </a>
-            </li>
-        </ul>
+        <nav>
+
+            <ul>
+                <li>
+                    <a href="#">
+                        HTML
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        JavaScript
+                    </a>
+                </li>
+            </ul>
+        </nav>
     </header>
 
 
@@ -49,7 +53,7 @@
                 </p>
                 <p>
 
-                    Learn more at: <a>https://en.wikipedia.org/wiki/JPEG_XL</a>
+                    Learn more at: <a href="#">https://en.wikipedia.org/wiki/JPEG_XL</a>
                 </p>
                 <p>
 
@@ -61,19 +65,17 @@
 
                 <h4>New feature: Cookie Store API</h4>
                 <p>
-
                     Cookie Store API is a JS API for reading and modifying cookies. Compared to the existing
                     `document.cookie`
                     method,
                     the API provides a much more modern interface, which can also be used in service workers.
                 </p>
                 <p>
-
-                    Learn more at:
-                    https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/cookies/CookieStore
+                    Learn more at: <br>
+                    <a
+                        href="#">https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/cookies/CookieStore</a>
                 </p>
                 <p>
-
                     By Joshua Bell. Published <time>December 15th</time>
                 </p>
             </article>
@@ -82,40 +84,48 @@
         <section>
 
             <h2>JavaScript</h2>
+            <article>
 
-            <h4>Billboard.js 3.0: The D3.js-Powered Chart Library</h4>
+                <h4>Billboard.js 3.0: The D3.js-Powered Chart Library</h4>
 
-            <p> Billboard.js is a popular library supporting a whole range of chart types out of the box (bar, line,
-                areas,
-                donuts,
-                radars, and various hybrids) – 3.0 brings candlestick / OHLC chart support (often used in financial
-                contexts)
-                and
-                supports D3.js v6.</p>
+                <p> Billboard.js is a popular library supporting a whole range of chart types out of the box (bar, line,
+                    areas,
+                    donuts,
+                    radars, and various hybrids) – 3.0 brings candlestick / OHLC chart support (often used in financial
+                    contexts)
+                    and
+                    supports D3.js v6.</p>
 
-            <p>Learn more at: https://github.com/naver/billboard.js</p>
+                <p>Learn more at: <a href="#">https://github.com/naver/billboard.js</a></p>
 
-            <p>By Jae Sung Park. Published March 24th</p>
+                <p>By Jae Sung Park. <time>Published March 24th</time></p>
+            </article>
 
-            <h4>Nine JavaScript and TypeScript ORMs</h4>
+            <article>
 
-            <p> A roundup, complete with code examples, showing off a variety of tools like Knex.js, Mongoose, TypeORM,
-                Waterline,
-                and Bookshelf.</p>
+                <h4>Nine JavaScript and TypeScript ORMs</h4>
 
-            <p>Learn more at: https://www.sitepoint.com/javascript-typescript-orms/</p>
+                <p> A roundup, complete with code examples, showing off a variety of tools like Knex.js, Mongoose,
+                    TypeORM,
+                    Waterline,
+                    and Bookshelf.</p>
 
-            <p>By Michael Wanyoike. Published March 31rd</p>
+                <p>Learn more at: <a href="#">https://www.sitepoint.com/javascript-typescript-orms/</a></p>
 
+                <p>By Michael Wanyoike. <time>Published March 31rd</time></p>
+
+            </article>
         </section>
 
     </main>
 
     <footer>
 
-        &copy; 2021 DeveloperNewsPortal.info
+        <p> &copy; 2021 DeveloperNewsPortal.info</p>
 
-        Please contact Troy McClure for questions about these articles.
+        <p>
+            Please contact <a href="#">Troy McClure</a> for questions about these articles.
+        </p>
 
     </footer>
 </body>
