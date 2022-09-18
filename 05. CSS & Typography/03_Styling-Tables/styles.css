@@ -1,1 +1,28 @@
-/* TODO: style the html */
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    padding: 16px;
+}
+
+th {
+    background-color: lightblue;
+    width: 144px;
+    height: 32px;
+    border: solid 1px #ccc;
+    padding-left: 5px;
+
+}
+
+td {
+    width: 144px;
+    height: 32px;
+    border: solid 1px #ccc;
+    padding-left: 5px;
+}
+
+tr:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255)
+}
