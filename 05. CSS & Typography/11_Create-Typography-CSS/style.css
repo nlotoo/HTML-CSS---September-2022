@@ -1,0 +1,39 @@
+html {
+    font-family: Helvetica, sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+
+}
+
+/* h1 h2 h3 h4 h5 h6 {
+    font-family: Georgia,  serif;
+} */
+
+h1 {
+    font-family: Georgia, serif;
+}
+
+h2 {
+    font-family: Georgia, serif;
+}
+
+h3 {
+    font-family: Georgia, serif;
+}
+
+h4 {
+    font-family: Georgia, serif;
+}
+
+h5 {
+    font-family: Georgia, serif;
+}
+
+h6 {
+    font-family: Georgia, serif;
+}
+
+blockquote {
+    border-left: solid 2px rgb(221, 221, 221);
+    font-style: italic;
+}
