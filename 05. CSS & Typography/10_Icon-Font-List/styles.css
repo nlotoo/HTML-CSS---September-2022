@@ -1,9 +1,8 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css");
 
 
-html body {
+body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
     line-height: 1.5;
     font-size: 18px;
 }
