@@ -1,0 +1,19 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 6px;
+    color: rgb(76, 244, 76);
+}
+
+header nav {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+header {
+    display: flex;
+}

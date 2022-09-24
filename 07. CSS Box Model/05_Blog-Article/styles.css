@@ -1,1 +1,58 @@
-/* TODO: style the html */
+body {
+    background-color: #02475e;
+}
+
+body article h2 {
+    font-size: 36px;
+    color: #fefecc;
+    margin: 12px;
+    text-align: center;
+}
+
+body article p {
+    color: #eee;
+    font-family: Arial, sans-serif;
+    line-height: 24px;
+    padding: 10px;
+    text-indent: 30px;
+}
+
+body article div {
+    margin-bottom: 30px;
+    border: solid 2px #fff;
+    position: relative;
+    top: 20px
+}
+
+body article div span {
+    width: 120px;
+    font-size: 14px;
+    text-align: center;
+    padding: 3px 5px;
+    margin: 0 auto;
+
+    background-color: #fff;
+    /* Display the span as block; */
+    display: block;
+    position: relative;
+    top: -11px;
+}
+
+/*
+o	<div>:
+	Bottom margin: 30px
+	Solid top border with size 2px and color #fff
+	Relative position
+	Top coordinates: 20px
+o	<span>:
+	Width: 120px
+	Font size: 14px
+	Align the text to the center
+	Top & bottom paddings 3px
+	Left & right paddings 5px
+	Top & bottom margins 0
+	Left & right margins auto
+	Background color: #fff
+	Display the span as block
+	Relative position
+	Top coordinates: -11px */
