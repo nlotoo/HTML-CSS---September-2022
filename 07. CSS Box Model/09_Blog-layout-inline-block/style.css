@@ -7,3 +7,16 @@ html {
 body {
     background-color: rgb(238, 238, 238);
 }
+
+aside {
+    float: right;
+}
+
+img {
+    width: 500px;
+    height: 300px;
+}
+
+article {
+    width: 1050px;
+}
