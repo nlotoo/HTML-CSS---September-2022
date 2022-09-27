@@ -12,6 +12,36 @@
 .item:hover {
     color: red;
 }
+body {
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "aside main"
+        "footer footer";
+    grid-template-columns: 250px 250px auto;
+    
+    gap: 10px
+}
 
+header {
+    grid-area: header;
+}
 
-;
+article {
+    grid-area: aside;
+}
+
+section{
+    grid-area: main;
+}
+footer {
+    grid-area: footer;
+}
+
+/* 
+footer{
+    grid-area: footer;
+}
+section{
+    grid-area: main;
+} */
