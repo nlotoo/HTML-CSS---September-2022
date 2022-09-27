@@ -1,11 +1,25 @@
+body {
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "aside main"
+        "footer footer";
+    grid-template-columns: 100px auto;
+    gap: 10px
+}
+
+
+
 
 
 
 header {
+    grid-area: header;
 
     border-radius: 3px;
     background: rgb(181, 216, 255);
     padding: 5px 10px;
+
 }
 
 header h1 {
@@ -14,10 +28,11 @@ header h1 {
 }
 
 aside {
-
     border-radius: 3px;
     background: rgb(181, 216, 255);
     padding: 5px 10px;
+
+    grid-area: aside;
 
 }
 
@@ -36,6 +51,7 @@ aside ul li a {
 }
 
 main {
+    grid-area: main;
 
     border-radius: 3px;
     background: rgb(181, 216, 255);
@@ -43,7 +59,8 @@ main {
 }
 
 footer {
-
+    grid-area: footer;
+    
     border-radius: 3px;
     background: rgb(181, 216, 255);
     padding: 5px 10px;
