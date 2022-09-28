@@ -1,0 +1,15 @@
+.card {
+    width: 60%;
+    display: block;
+    position: absolute;
+}
+
+.card1 {
+    background: rgb(168, 51, 119);
+    background: linear-gradient(90deg, rgba(168, 51, 119, 1) 0%, rgba(210, 130, 19, 1) 100%);
+}
+
+.card2 {
+    background: rgb(24, 90, 157);
+    background: linear-gradient(90deg, rgba(24, 90, 157, 1) 0%, rgba(66, 205, 162, 1) 100%);
+}
