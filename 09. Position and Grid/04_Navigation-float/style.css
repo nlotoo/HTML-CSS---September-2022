@@ -1,0 +1,47 @@
+a {
+    color: rgb(0, 120, 0);
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+
+    padding: 40px;
+}
+
+img {
+    box-shadow: rgba(0, 0, 0, 0.25);
+    background-color: rgb(255, 255, 255);
+}
+
+body header {
+    /* display: flex; */
+
+    display: grid;
+    grid-template:
+        'title main side';
+
+
+}
+
+aside {}
+
+body header p {
+
+    margin-top: 20px;
+    font-size: 38px;
+}
+
+body header nav {
+    grid-area: side;
+    margin-top: 60px;
+}
+
+body header nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: end;
+}
+
+body header nav li {
+    margin-right: 15px;
+}
