@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+}
+
+body section h1 {
+    font-size: 1.2em;
+}
+
+body {
+    font-family: Georgia, serif;
+    font-size: 1em;
+}
+
+body section div p{
+    margin-bottom: 30px;
+}
+
+
+body section div a {
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(0, 153, 0);
+    margin-left: 22em;
+   
+}
+img{
+    position: absolute;
+}
+
+body section {
+    position: absolute;
+    left: 20em;
+    top: 10em;
+    width: 500px;
+    height: 520px;
+
+}
+
+.firstDiv {
+    width: 500px;
+    height: 330px;
+}
+
+.secondDiv {
+    padding: 20px;
+}
