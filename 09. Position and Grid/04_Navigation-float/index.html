@@ -23,42 +23,45 @@
     </header>
     <hr>
     <main>
-        <aside>
-            <section>
-                <h3>Categories</h3>
-            </section>
-            <section>
-                <nav>
-                    <ul>
-                        <li><a>Stuff</a></li>
-                        <li><a>Something</a></li>
-                        <li><a>Important</a></li>
-                        <li><a>Dogs</a></li>
-                    </ul>
-                </nav>
-            </section>
-        </aside>
-        <aside>
-            <section>
-                <h3>Social</h3>
-            </section>
-            <section>
-                <nav>
-                    <ul>
-                        <li><a>Facebook</a></li>
-                        <li><a>Twitter</a></li>
-                        <li><a>Google+ really?</a></li>
-                    </ul>
-                </nav>
-            </section>
-        </aside>
+        <div class="categories">
+            <aside>
+                <section>
+                    <h3>Categories</h3>
+                </section>
+                <section>
+                    <nav>
+                        <ul>
+                            <li><a>Stuff</a></li>
+                            <li><a>Something</a></li>
+                            <li><a>Important</a></li>
+                            <li><a>Dogs</a></li>
+                        </ul>
+                    </nav>
+                </section>
+            </aside>
+            <aside>
+                <section class="social">
+                    <h3>Social</h3>
+                </section>
+                <section>
+                    <nav>
+                        <ul>
+                            <li><a>Facebook</a></li>
+                            <li><a>Twitter</a></li>
+                            <li><a>Google+ really?</a></li>
+                        </ul>
+                    </nav>
+                </section>
+            </aside>
+        </div>
         <article>
             <header>
                 <h1>
                     Heading level 1
                 </h1>
             </header>
-            <section>
+            <section class="section-image">
+                <img class="first-img" src="./images/second-image.jpg">
                 <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempus lorem nibh, quis
                     vehicula
                     quam eleifend vel. Sed sagittis urna a commodo fermentum. Donec fringilla volutpat mi, non ultrices
@@ -102,9 +105,12 @@
                     justo. In varius tortor a ante feugiat, quis finibus magna blandit.
                 </p>
                 <p>
+                <blockquote>
+
                     Proin sit amet est vitae mi porttitor rhoncus sed nec neque. Praesent metus quam, sagittis eu mauris
                     a, pellentesque suscipit justo. In varius tortor a ante feugiat, quis finibus magna blandit.
                     Author Name
+                </blockquote>
                 </p>
                 <p>
                     Phasellus dictum interdum efficitur. Maecenas eleifend sapien felis, quis interdum ex tempor a.
@@ -127,6 +133,7 @@
                 <h2>Heading level 2</h2>
             </header>
             <section>
+                <img class="second-img" src="./images/first-image.jpg">
                 <p>
                     Sed fermentum viverra tortor ut lacinia. Pellentesque habitant morbi tristique senectus et netus et
                     malesuada fames ac turpis egestas. Duis eleifend ut ligula quis lacinia. Ut sit amet est quis ipsum
