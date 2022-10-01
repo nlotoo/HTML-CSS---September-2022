@@ -33,7 +33,7 @@ body main {
     grid-template-columns: 80% auto;
 }
 
-.categories {
+aside {
     grid-area: aside
 }
 
@@ -91,4 +91,18 @@ h1 {
 h2 {
     font-family: Georgia, serif;
     font-size: 1em;
+}
+
+blockquote {
+    font-style: italic;
+    font-family: Georgia, serif;
+    width: 30%;
+    float: right;
+    padding-left: 25px;
+    border-left: 2px solid rgb(171, 169, 169);
+
+}
+
+.author {
+    text-indent: 10em;
 }
