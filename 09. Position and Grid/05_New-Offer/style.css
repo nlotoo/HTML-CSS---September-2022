@@ -1,0 +1,15 @@
+body main {
+    width: 700px;
+    height: 500px;
+    /* margin: 60px; */
+}
+
+img.new {
+    position: relative;
+    top: 46%;
+    left: 22%;
+}
+img.new2{
+    position: relative;
+    left: -3%;
+}
