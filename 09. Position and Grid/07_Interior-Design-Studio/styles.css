@@ -1,1 +1,13 @@
-//TODO
+body {
+    background-image: url('livingroom.jpg');
+    background-size: cover;
+}
+
+h1 {
+    color: antiquewhite;
+    position: absolute;
+    top: 3em;
+    left:12em;
+    text-shadow: 1px 1px 20px black;
+    font-size:45px
+}
