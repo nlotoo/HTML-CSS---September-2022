@@ -1,0 +1,50 @@
+body {
+    background-color: #EEE;
+    padding: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+
+header {
+    padding: 2rem;
+    background-color: #FFF;
+    border-radius: 0.4rem;
+    color: #000;
+    flex-basis: 100%;
+    border: 1px solid  black;
+}
+
+main {
+    padding: 2rem;
+    background-color: #FFF;
+    border-radius: 0.4rem;
+    color: #000;
+
+    flex: 8 1 40em;
+    border: 1px solid  black;
+
+}
+
+aside {
+    padding: 2rem;
+    background-color: #FFF;
+    border-radius: 0.4rem;
+    color: #000;
+
+    flex: 2 1 20rem;
+    border: 1px solid  black;
+
+}
+
+footer {
+    padding: 2rem;
+    background-color: #FFF;
+    border-radius: 0.4rem;
+    color: #000;
+
+    flex-basis: 100%;
+
+    border: 1px solid  black;
+
+}

@@ -1,1 +1,23 @@
-/* TODO: style the html */
+body main section {
+    position: absolute;
+    left: 180px;
+    top: 250px;
+}
+
+body main section h3 {
+    font-size: 16px;
+    margin: 0px;
+
+}
+
+body main section span {
+    padding-left: 3px;
+    color: rgb(128, 128, 128);
+    font-size: 14px;
+}
+
+body main section div {
+    position: relative;
+    top: -50px;
+    left: 8px;
+}
