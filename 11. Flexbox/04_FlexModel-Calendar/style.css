@@ -66,8 +66,15 @@ main div.container {
     display: grid;
     grid-template-areas:
         'Monday  Thuesday  Wendsney Thursday Friday';
-
-
-
-
 }
+
+.weekedn-head-line {
+    height: 100px;
+}
+
+.weekend-days{
+    height: 96px;
+    border: 1px solid black
+}
+
+
