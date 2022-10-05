@@ -1,0 +1,73 @@
+/* div {
+    display: flex;
+    align-items: center;
+    max-width: 65vw;
+}
+
+section {
+    display: flex;
+    align-items: center;
+}
+
+span {
+    border: 1px solid black
+
+}
+
+.notes{
+    flex-direction: column;
+}
+
+html {
+    box-sizing: border-box;
+} */
+
+html {
+    box-sizing: border-box
+}
+
+main div section.week {
+    border: 1px solid purple;
+    height: 200px;
+    width: 700px;
+}
+
+main div section.notes {
+    border: 1px solid red;
+    height: 200px;
+    width: 200px;
+    flex-direction: column;
+}
+
+main {
+    border: 1px solid black;
+    max-width: 65vw;
+    height: 30vw;
+}
+
+main div.container {
+    display: flex;
+    text-align: center;
+    border: 1px solid green;
+
+}
+
+.work-week-head-line {
+    border: 1px solid red;
+    height: 100px;
+}
+
+.workdays span {
+    border: 1px solid salmon;
+    height: 96px;
+}
+
+.workdays {
+    display: grid;
+    grid-template-areas:
+        'Monday  Thuesday  Wendsney Thursday Friday';
+
+
+
+
+}
