@@ -24,7 +24,7 @@ body section div a {
     border-radius: 5px;
     padding: 5px;
     background-color: rgb(0, 153, 0);
-    margin-left: 22em;
+    margin-left: 24em;
    
 }
 img{
@@ -33,7 +33,7 @@ img{
 
 body section {
     position: absolute;
-    left: 20em;
+    left: 23em;
     top: 10em;
     width: 500px;
     height: 520px;
