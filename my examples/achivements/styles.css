@@ -9,8 +9,20 @@ body {
 main {
     position: relative;
 
+    display: grid;
+    grid-template-columns: 200px 200px 200px auto;
+    grid-template-rows: 300px 300px 300px auto;
+
+    grid-template-areas:
+        "header header header"
+        "main main main"
+        "footer footer footer";
+
 }
 
+.card1 {
+    grid-area: header;
+}
 
 
 article {
@@ -24,6 +36,8 @@ article {
     border-radius: 3px;
 
     transition: all .2s ease-in-out;
+
+    grid-area: header;
 
 }
 
@@ -84,7 +98,9 @@ article:hover {
 
 .text-more {
     position: absolute;
-    top: 400px
+    top: 400px;
+
+    
 }
 
 .article-text-text-more p {
@@ -96,6 +112,8 @@ article:hover {
 
 .article-text-text-more {
     position: relative;
+
+
 
 }
 
@@ -118,6 +136,7 @@ article:hover {
 
 
 .card3 {
+    
     position: absolute;
     top: 800px;
 }
