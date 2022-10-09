@@ -1,142 +1,37 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css");
 
-body {
-    height: 1400px;
-}
-
-
-
-main {
+.header {
+    background-color: #234465;
+    padding: 6px 24px;
     position: relative;
-
-    display: grid;
-    grid-template-columns: 200px 200px 200px auto;
-    grid-template-rows: 300px 300px 300px auto;
-
-    grid-template-areas:
-        "header header header"
-        "main main main"
-        "footer footer footer";
-
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+    margin-bottom: 30px;
 }
 
-.card1 {
-    grid-area: header;
+.header .header__logo{
+    height: 100px;
 }
 
+nav ul {
+    list-style: none;
 
-article {
+    /* word-spacing: 10px; */
     position: absolute;
-    top: 30%;
-    left: 30%;
-    transform: translate(-50%, 50%);
-    width: 300px;
-    height: 350px;
-    border: 1px solid rgb(65, 63, 63);
-    border-radius: 3px;
-
-    transition: all .2s ease-in-out;
-
-    grid-area: header;
+    top: 50%;
+    right: 30px;
 
 }
-
-article:hover {
-    position: absolute;
-    top: 30%;
-    left: 30%;
-    transform: scale(1);
-}
-
-
-
-.fill {
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-    width: 300px;
-    object-fit: cover;
-}
-
-
-
-.article-text {
-
-    padding: 10px;
-
-}
-
-.article-button {
-    text-align: center;
-}
-
-.article-button button {
-    box-sizing: border-box;
-    border: 1px solid #B39CD0;
-    border-radius: 20px;
-    padding: 8px;
+.nav__item .nav__item__link{
+    color: white;
+    font-size: 10;
+    text-decoration: none;
     margin: 10px;
-    color: white;
-    background-color: #845EC2;
-    letter-spacing: 2px;
-
-
-}
-
-.article-button button:hover {
-    border: 0;
-    cursor: pointer;
-    -webkit-box-shadow: 4px 8px 15px -2px rgba(213, 130, 130, 0.81);
-    box-shadow: 4px 8px 15px -2px rgba(179, 83, 172, 0.81);
-}
-
-.point-icon {
-    font-size: 20px;
-    position: absolute;
-    bottom: 7px;
-    right: 20px;
-}
-
-.text-more {
-    position: absolute;
-    top: 400px;
-
     
 }
-
-.article-text-text-more p {
-    overflow: hidden;
-    padding-left: 15px;
-
-    height: 75px;
+.nav__item{
+    display: inline-block;
 }
 
-.article-text-text-more {
-    position: relative;
-
-
-
-}
-
-.read-more-button {
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, 50%);
-    padding: 8px;
-    background-color: #845EC2;
-    border: none;
-    border-radius: 30px;
-    color: white;
-
-}
-
-.point-icon-read-more {
-    font-size: 15;
-}
-
-
-.card3 {
-    
-    position: absolute;
-    top: 800px;
-}
