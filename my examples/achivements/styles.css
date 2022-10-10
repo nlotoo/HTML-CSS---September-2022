@@ -10,11 +10,9 @@
     z-index: 1000;
     margin-bottom: 30px;
 }
-
 .header .header__logo{
     height: 100px;
 }
-
 nav ul {
     list-style: none;
 
