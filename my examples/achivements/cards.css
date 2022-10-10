@@ -92,3 +92,18 @@
 
     z-index: 100;
 }
+
+
+
+
+.head{
+}
+.head__action {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 20px;
+    border: 0;
+    background-color: transparent;
+    color: red;
+}
