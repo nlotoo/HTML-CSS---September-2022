@@ -3,6 +3,7 @@
     border-radius: 14px;
     overflow: hidden;
     box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+
 }
 
 .layout .card {
@@ -10,7 +11,7 @@
     left: 50%;
     transform: translateX(-50%);
     /* height: 30%; */
-    width: 30%;
+    width: 316px
 }
 
 .layout .card .head {
@@ -94,16 +95,53 @@
 }
 
 
-
-
-.head{
+.card--bg-img {
+    position: relative;
+    height: 582px;
 }
-.head__action {
+
+.card--bg-img .content {
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    z-index: 10;
+
+
+}
+
+.card--bg-img div.head {
+    position: absolute;
+    bottom: 70px;
+    left: 0px;
+    font-size: 30px;
+    color: white;
+    z-index: 10;
+
+}
+
+
+
+.head button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    background-color: transparent;
+    border: 0;
+    font-size: 27px;
+    z-index: 10;
+
+}
+
+.card--bg-img::after {
+    content: "";
     position: absolute;
     top: 0;
-    right: 0;
-    font-size: 20px;
-    border: 0;
-    background-color: transparent;
-    color: red;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: black;
+    opacity: 0.3;
 }
