@@ -1,0 +1,23 @@
+.panel {
+    padding: 10px;
+    position: relative;
+    width: 130px;
+    background-color: #FFC75F;
+    border-radius: 15px;
+    border: 1px solid green;
+    border: 0;
+}
+
+.panel .panel__text {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.panel .panel__icon{
+    position: relative;
+    font-size: large;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: black;
+
+}
