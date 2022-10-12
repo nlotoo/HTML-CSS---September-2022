@@ -1,0 +1,27 @@
+.layout {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 120px);
+    gap: 16px;
+
+    grid-template-areas:
+        "card-top card-mid card-wide"
+        "card-top card-mid card-wide"
+        "card-top card-mida card-wide"
+
+
+}
+
+.layout-item-1{
+    grid-area: card-top;
+}
+.layout-item-2{
+    grid-area: card-mid;
+}
+
+.layout-item-3{
+    grid-area: card-wide;
+}
+.layout-item-4{
+    grid-area: card-mida;
+}
