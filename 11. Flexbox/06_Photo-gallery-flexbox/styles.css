@@ -1,0 +1,57 @@
+:root {
+    --main-bg-color: #EEEEEE;
+}
+
+body {
+    background-color: var(--main-bg-color);
+}
+
+/* 
+.gallery li {
+    list-style: none;
+    border: 2px solid red;
+} */
+/* 
+ul {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+} */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.gallery {
+    justify-content: space-evenly;
+    row-gap: 20px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 300px 300px 300px;
+    grid-template-areas:
+        "first second third"
+        "fourt five six"
+        "seven eith nine"
+    ;
+}
+
+/* ul li img:nth-child(1) {
+    grid-area: first
+} */
+/* ul li img:nth-child(2) {
+    grid-area: second
+
+} */
+.a-item {
+    align-self: self-end;
+
+    grid-area: first
+}
+
+.b-item {
+    align-self: center;
+    grid-area: second;
+}
