@@ -1,5 +1,10 @@
-a {
-    color: rgb(0, 120, 0);
+.page {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+aside a {
+    color: rgb(0, 153, 0);
 }
 
 body {
@@ -15,11 +20,8 @@ img {
 
 body header {
     /* display: flex; */
-
-    display: grid;
-    grid-template:
-        'title main side';
-
+    width: 100%;
+    border-bottom: 2px solid black;
 
 }
 
@@ -102,6 +104,8 @@ blockquote {
     border-left: 2px solid rgb(171, 169, 169);
 
 }
+
+
 
 .author {
     text-indent: 10em;

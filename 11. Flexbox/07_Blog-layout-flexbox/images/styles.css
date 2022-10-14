@@ -1,56 +1,8 @@
-/* •	The page container (div) must be flexed and wrapped
-•	Body background color must be rgb(238, 238, 238)
-•	Image background color should be rgb(255, 255, 255)
-•	Blockquote font family must be Georgia, serif
-•	The anchors text color in the aside section must be rgb(0, 153, 0)
-•	Page headings font family must be Georgia, serif
- */
-
-:root {
-    --main-font-familiy: font-family: Georgia, serif
+header {
+    border-bottom: 2px solid black;
 }
 
 .page {
     display: flex;
     flex-wrap: wrap;
-}
-
-body {
-    background-color: rgb(238, 238, 238);
-}
-
-image {
-    background-color: rgb(255, 255, 255);
-}
-
-blockquote {
-    font-family: var(--main-font-familiy);
-}
-
-aside section a {
-    background-color: rgb(0, 153, 0);
-}
-
-h1 {
-    font-family: var(--main-font-family);
-}
-
-h2 {
-    font-family: var(--main-font-family);
-}
-
-h3 {
-    font-family: var(--main-font-family);
-}
-
-h4 {
-    font-family: var(--main-font-family);
-}
-
-h5 {
-    font-family: var(--main-font-family);
-}
-
-h6 {
-    font-family: var(--main-font-family);
 }
