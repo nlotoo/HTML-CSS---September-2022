@@ -1,0 +1,32 @@
+/* 
+•	The body must have flex display property
+•	The body background must be rgb(238, 238, 238)
+•	Set height to the body: 100vh
+•	Font family Helvetica, sans-serif 
+•	The footer should be at the bottom of the page
+o	The footer text color must be rgb(255, 255, 255)
+o	The footer background color must be rgb(102, 102, 102)
+ */
+header {
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 30px;
+    height: 100vh;
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(238, 238, 238);
+
+}
+
+footer {
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(102, 102, 102);
+    color: rgb(255, 255, 255);
+}
