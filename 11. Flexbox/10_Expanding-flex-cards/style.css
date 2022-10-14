@@ -1,0 +1,15 @@
+body {
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    width: 600px;
+    display: flex;
+}
+
+.container img:nth-child(1) {
+    flex-grow: 0;
+    /* width: 200px; */
+}
