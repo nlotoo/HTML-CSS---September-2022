@@ -1,0 +1,56 @@
+.middle-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+
+    grid-template-areas:
+        "image desc"
+        "advert  image2";
+
+}
+
+.middle-section .middle-image {
+    overflow: hidden;
+    grid-area: image;
+}
+
+.middle-section .middle-image2 {
+    overflow: hidden;
+    grid-area: image2;
+
+
+}
+
+.middle-section .middle-desc {
+    grid-area: desc;
+}
+
+.middle-section .middle-advertising {
+    grid-area: advert;
+}
+
+.middle-section .middle-image img {
+    width: 100%;
+    height: -webkit-fill-available;
+}
+
+.middle-section .middle-image2 img {
+    width: 100%;
+    height: -webkit-fill-available;
+}
+
+
+.middle-desc {
+    padding: 30px;
+}
+
+.middle-desc h1 {
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+.middle-desc div {
+    width: 70%;
+}
