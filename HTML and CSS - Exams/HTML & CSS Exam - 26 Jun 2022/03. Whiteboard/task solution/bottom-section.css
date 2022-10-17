@@ -1,0 +1,56 @@
+:root {
+    --clr-primary-green: #78dbbc;
+
+}
+
+.botom-section {
+    background-color: var(--clr-primary-green);
+    padding: 20px;
+}
+
+.botom-section h1 {
+    text-align: center;
+}
+
+.question-container section {
+    text-align: center;
+    line-height: 1.2;
+    font-size: 16px;
+}
+
+.question-container{
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(2, 170px);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    grid-template-areas: 
+    "question-01 question-02 question-03"
+    "question-04 question-05 question-06"
+    ;
+    justify-content: center;
+}
+
+.question-01{
+    grid-area: question-01;
+}
+
+.question-02{
+    grid-area: question-02;
+}
+.question-03{
+    grid-area: question-03;
+}
+.question-04{
+    grid-area: question-04;
+}
+.question-05{
+    grid-area: question-05;
+}
+.question-06{
+    grid-area: question-06;
+}
+
+.botom-section p {
+    text-align: center;
+}
