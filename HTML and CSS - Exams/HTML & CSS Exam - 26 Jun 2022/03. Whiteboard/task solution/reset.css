@@ -8,6 +8,9 @@ body {
 }
 
 :root {
-
     font-family: 'PT Sans', sans-serif;
+}
+
+ul {
+    list-style: none;
 }
