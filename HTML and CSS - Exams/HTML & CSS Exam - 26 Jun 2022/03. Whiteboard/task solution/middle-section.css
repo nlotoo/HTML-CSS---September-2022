@@ -1,7 +1,8 @@
-:root{
+:root {
     --clr-primary-green: #78dbbc;
 
 }
+
 /* 1st and 4th part */
 
 .middle-section {
@@ -10,6 +11,7 @@
     grid-template-rows: repeat(2, 391px);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+
 
     grid-template-areas:
         "image desc"
@@ -91,7 +93,8 @@
     grid-column-gap: 48px;
     grid-row-gap: 45px;
     position: absolute;
-    left: 16%;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .middle-advertising ul li {
