@@ -1,0 +1,9 @@
+main {
+    position: relative;
+}
+
+.slider .img-slider {
+    width: 50%;
+    position: absolute;
+    transform: translateY(50%);
+}
