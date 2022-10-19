@@ -1,14 +1,16 @@
 main {
-    position: relative;
+    /* position: relative; */
 }
 
 .slider {
-    position: absolute;
-    transform: translateY(130px);
+    position: relative;
+    top: 140px;
+    /* transform: translateY(130px); */
 }
 
 .slider .img-slider {
     width: 100%;
+    height: 600px
 }
 
 .slider .primary-offer {
@@ -27,4 +29,65 @@ main {
     color: var(--primary-button-clr);
     font-weight: bold;
     padding: 10px;
+}
+
+.side-below-slider {
+
+    padding-top: 10px;
+    position: relative;
+    top: 100px;
+    background-color: var(--primary-offer-clr);
+    padding-bottom: 30px;
+
+
+}
+
+.town-offer h1 {
+    text-align: center;
+    color: white;
+}
+
+.side-below-slider .town-offer {
+    height: 350px;
+}
+
+.side-below-slider .town-offer .card-desc {
+    width: 550px;
+    color: white;
+    position: absolute;
+    left: 32%;
+    font-size: 19px;
+}
+
+.side-below-slider .town-offer button {
+    margin-left: 30%;
+    background: transparent;
+    color: white;
+    padding: 12px;
+    width: 140px;
+    border: 3px solid;
+    cursor: pointer;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.bottom-side {
+    position: relative;
+}
+
+.bottom-side article {
+    position: absolute;
+    top: 140px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.bottom-side article h1 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 100;
+}
+
+.bottom-side article p {
+    text-align: center
 }
