@@ -2,8 +2,29 @@ main {
     position: relative;
 }
 
-.slider .img-slider {
-    width: 50%;
+.slider {
     position: absolute;
-    transform: translateY(50%);
+    transform: translateY(130px);
+}
+
+.slider .img-slider {
+    width: 100%;
+}
+
+.slider .primary-offer {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.52);
+    color: white;
+    width: 390px;
+    position: absolute;
+    bottom: 100px;
+    left: 50px;
+}
+
+.slider .primary-offer .offer-button {
+    background-color: transparent;
+    border: 3px solid white;
+    color: var(--primary-button-clr);
+    font-weight: bold;
+    padding: 10px;
 }

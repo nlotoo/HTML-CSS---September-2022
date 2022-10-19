@@ -2,7 +2,7 @@ body header .logo-style {
     background-color: var(--primary-main-clr);
     padding: 15px;
     position: absolute;
-    top:30px;
+    top:25px;
     left: 30px;
     z-index: 300;
 }
@@ -45,7 +45,7 @@ header {
 /* bottom navigation */
 .bottom-nav {
     position: absolute;
-    top: 90px;
+    top: 85px;
     right: 50px
 }
 
