@@ -31,6 +31,11 @@ main {
     padding: 10px;
 }
 
+.slider .primary-offer .offer-button:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
 .side-below-slider {
 
     padding-top: 10px;
@@ -71,11 +76,19 @@ main {
     font-size: 15px;
 }
 
+.side-below-slider .town-offer button:hover {
+    background-color: white;
+    cursor: pointer;
+    color: var(--primary-offer-clr);
+
+}
+
 .bottom-side {
     position: relative;
 }
 
 .bottom-side article {
+    color: gray;
     position: absolute;
     top: 140px;
     left: 50%;
@@ -90,4 +103,20 @@ main {
 
 .bottom-side article p {
     text-align: center
+}
+
+.bottom-side img {
+    border-radius: 50%;
+    border: 2px solid grey;
+    padding: 2px;
+    margin: 2px;
+}
+
+.bottom-side .atractions ul {
+    display: flex;
+    list-style: none;
+}
+
+.bottom-side .atractions ul li p {
+    font-size: 14px;
 }

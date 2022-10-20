@@ -2,7 +2,7 @@ body header .logo-style {
     background-color: var(--primary-main-clr);
     padding: 15px;
     position: absolute;
-    top:25px;
+    top: 25px;
     left: 30px;
     z-index: 300;
 }
@@ -14,15 +14,28 @@ header {
 
 /* top navigation */
 .top-nav ul li {
-    /* border: 1px solid black; */
     list-style: none;
     margin: 10px;
     text-align: center;
 }
 
+.top-nav ul li:hover {
+    background-color: var(--primary-button-clr);
+    padding: 10px;
+    padding: 10px 10px 0 10px;
+    margin: 10px;
+    cursor: pointer;
+    color: white;
+
+}
+
+
 .top-nav ul li a {
     text-decoration: none;
     color: black;
+}
+.top-nav ul li a:hover{
+    color: white;
 }
 
 .top-nav .nav-top-icon {
@@ -33,7 +46,8 @@ header {
 
 
 .top-nav ul {
-    display: -webkit-inline-box;
+    display: flex;
+    line-height: 0;
 }
 
 .top-nav {
@@ -55,5 +69,15 @@ header {
 
 .bottom-nav .bottom-nav-list li {
     display: inline;
-    margin: 5px;
+    margin: 7px;
+}
+
+.bottom-nav .bottom-nav-list li:hover {
+    background-color: var(--primary-button-clr);
+    padding-bottom: 30px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+    color: white;
 }

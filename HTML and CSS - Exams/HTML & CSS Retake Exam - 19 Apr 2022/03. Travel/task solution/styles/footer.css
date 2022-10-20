@@ -1,0 +1,35 @@
+footer {
+    position: relative;
+    top: 80vh
+}
+
+.first-footer {
+    line-height: 1.6;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-button-clr);
+    padding-left: 15px;
+
+
+}
+.first-footer button {
+    height: 40px;
+    margin: 10px;
+    border: 3px solid white;
+    background-color: transparent;
+    color: white;
+    font-weight: 800;
+}
+
+
+.first-footer div p {
+    color: white;
+    margin: 0;
+}
+
+.second-footer {
+    text-align: center;
+    padding: 12px;
+}
