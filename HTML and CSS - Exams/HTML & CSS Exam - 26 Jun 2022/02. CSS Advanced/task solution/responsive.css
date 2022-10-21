@@ -1,4 +1,42 @@
 @media only screen and (max-width: 600px) {
-    
+    .left-to-right:first-child {
+        padding: 0px;
+        padding-top: 30px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    main .left-to-right article {
+        width: 390px;
+        text-align: center;
+        padding: 30px 10px 30px 10px;
+    }
+
+    main .left-to-right article header h1 {
+        font-size: 30px;
+    }
+
+    main .left-to-right article header p {
+        font-size: 16px;
+    }
+
+    main .left-to-right article p {
+        font-size: 14px;
+    }
+
+    main section:nth-child(2) article header h1 {
+        font-size: 34px;
+        text-align: center;
+    }
+
+    main section:nth-child(2) article header p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    main section:nth-child(2) article p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
 
 }
