@@ -1,0 +1,56 @@
+header .navigation {
+    display: flex;
+}
+
+header .navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .navigation ul li {
+    display: inline;
+    margin-left: 16px;
+
+}
+
+header .navigation ul li a:hover {
+    cursor: pointer;
+    padding-bottom: 5px;
+    border-bottom: 2px solid var(--primary-color);
+}
+
+
+header .navigation h1 span {
+    color: var(--primary-color)
+}
+
+.get-started img {
+    width: 100%;
+}
+
+.get-started {
+    position: relative;
+}
+
+.get-started .get-started-desc {
+    color: white;
+    font: 100;
+    font-size: 40px;
+    padding: 20px;
+    position: absolute;
+    top: 14rem;
+    left: 16rem;
+    background-color: rgba(0, 0, 0, 0.547);
+    line-height: 1.5;
+}
+
+.get-started .get-started-desc button{
+    background-color: var(--secondary-color);
+    padding: 10px 30px 10px 30px;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    border-radius: 30px;
+
+}
