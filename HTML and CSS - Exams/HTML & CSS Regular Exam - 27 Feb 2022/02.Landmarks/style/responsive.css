@@ -1,1 +1,25 @@
-/* TODO */
+ 
+#main-menu ul  {
+    text-align: center;
+}
+
+main aside{
+    display: unset;
+}
+#news {
+    width: 80%;
+}
+
+#news article {
+    width: unset ;
+}
+
+#right-aside div:nth-child(1){
+    text-align: center;
+}
+#right-aside div:nth-child(2){
+    text-align: center;
+}
+footer {
+    display: flex;
+}
