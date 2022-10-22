@@ -1,1 +1,30 @@
-//TODO
+@media only screen and (max-width: 800px) {
+
+    header nav {
+        margin-left: 10px;
+    }
+
+    header nav ul li {
+        margin-left: 10px;
+    }
+
+    header div {
+        padding-left: 8em;
+    }
+
+    .instructors-pic {
+        justify-content: center;
+    }
+
+    .getInTouch {
+        display: block;
+    }
+
+    .map {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+ 
+}

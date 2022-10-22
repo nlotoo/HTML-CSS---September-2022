@@ -10,7 +10,7 @@ body {
   font-family: PT Sans, sans-serif;
   font-size: 16px;
   box-sizing: inherit;
-  max-width: 1500px;
+  /* max-width: 1500px; */
   margin: 0 auto;
 }
 
