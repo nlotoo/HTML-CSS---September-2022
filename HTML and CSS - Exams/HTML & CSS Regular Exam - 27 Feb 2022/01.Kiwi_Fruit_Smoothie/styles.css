@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+body {
+    font-family: 'PT Serif', serif;
+}
+
+.card {
+    border: 1px solid green;
+    width: 815px;
+    background-image: url('./image/image1.png');
+}
+
+body .card-desc {
+    width: 450px;
+}
+
+body .card-desc h1 {
+    margin-top: 30px;
+    text-align: center;
+    line-height: 0.6;
+}
+
+body .card-desc hr {
+    width: 90%;
+    border-bottom: 1px solid green;
+}
+
+body .card {
+    display: flex;
+}
+
+.time-preparation {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.time-preparation h5 {
+    margin: 0 20px 0 20px
+}
+
+body .recipe {
+    width: 200px;
+    line-height: 1.5;
+    margin: 30px
+}
+
+body .recipe span {
+    color: rgb(11, 82, 11);
+}
+
+body .recipe p {
+    margin: 0;
+}
+
+body .recipe-desc {
+    margin: 30px 0 30px 30px;
+}
+
+.grid-table {
+    display: grid;
+    grid-template-columns: repeat(3, 129px);
+    grid-template-rows: repeat(2, 30px);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    align-items: center;
+    justify-items: center;
+}
+
+.grid-table div {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    border: 2px solid black;
+    /* padding: 10px; */
+}
+
+td {
+    border: 1px solid;
+    margin: 0;
+}
+
+.flex-table{
+    display: flex;
+    flex-wrap: wrap;
+    width: 193px;
+    border: 1px solid;
+    justify-content: space-around;
+    font-size: 19px;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+}
+.flex-table hr {
+    width: 140%;
+}
+.block{
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px 30px 15px 30px;
+
+}
+
+.block div {
+    text-align: center;
+    width: 130px;
+    border: 1px solid green;
+}
+img {
+    width: 341px;
+    padding: 20px 10px 15px 0;
+}
