@@ -1,6 +1,13 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css");
+
+
+
 .subscribe-section hr {
     width: 100px;
-    border: 1px solid white
+    height: 2px;
+    background-color: white;
+
+
 }
 
 .subscribe-section h2 {

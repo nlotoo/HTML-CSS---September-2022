@@ -63,8 +63,10 @@ header .navigation h1 span {
 }
 
 .header-desc h2 hr {
-    border-bottom: 2px solid var(--primary-color);
+    height: 2px;
+    /* border-bottom: 2px solid var(--primary-color); */
     width: 10%;
+    background-color: var(--primary-color);
 }
 
 .header-desc h2 {
@@ -79,4 +81,5 @@ header .navigation h1 span {
     border-radius: 30px;
     width: 160px;
     font-size: 17;
+    border: 0;
 }

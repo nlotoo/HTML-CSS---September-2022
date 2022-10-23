@@ -61,6 +61,6 @@ h2 {
 
 .service-layer  hr {
     width: 5%;
-    border-radius: 30px;
-    border: 2px solid var(--third-color);
+    height: 2px;
+    background-color: var(--third-color);
 }
