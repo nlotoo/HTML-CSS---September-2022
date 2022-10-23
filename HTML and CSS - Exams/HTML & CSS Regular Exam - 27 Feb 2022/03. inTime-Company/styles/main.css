@@ -1,0 +1,66 @@
+.service1,
+.service2,
+.service3,
+img {
+    width: 100%;
+}
+
+.service1,
+.service2,
+.service3,
+h2 {
+    font-weight: 200;
+}
+
+.service-text {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.service1,
+.service2,
+.service3 {
+
+    text-align: center;
+    overflow: hidden;
+    width: 300px;
+    background-color: white;
+    padding-bottom: 20px;
+
+}
+
+.read-more-button-our-services {
+    color: white;
+    background-color: var(--third-color);
+    border-radius: 5px;
+    padding: 6px;
+    border: 1px solid black;
+    width: 120px;
+}
+
+.our-service {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.service-layer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    background-color: var(--our-service-color);
+
+}
+
+.service-layer h2 {
+    text-align: center;
+    margin-bottom: 0;
+
+}
+
+.service-layer  hr {
+    width: 5%;
+    border-radius: 30px;
+    border: 2px solid var(--third-color);
+}

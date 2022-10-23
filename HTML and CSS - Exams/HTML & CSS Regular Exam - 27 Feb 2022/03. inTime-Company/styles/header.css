@@ -45,7 +45,7 @@ header .navigation h1 span {
     line-height: 1.5;
 }
 
-.get-started .get-started-desc button{
+.get-started .get-started-desc button {
     background-color: var(--secondary-color);
     padding: 10px 30px 10px 30px;
     border: 0;
@@ -53,4 +53,30 @@ header .navigation h1 span {
     font-size: 20px;
     border-radius: 30px;
 
+}
+
+.header-desc {
+    text-align: center;
+    width: 1000px;
+    margin: auto;
+    margin-bottom: 30px
+}
+
+.header-desc h2 hr {
+    border-bottom: 2px solid var(--primary-color);
+    width: 10%;
+}
+
+.header-desc h2 {
+    font-weight: 300;
+    font-size: 26px;
+}
+
+.header-desc-button {
+    color: white;
+    padding: 8px 15px 8px 15px;
+    background-color: var(--third-color);
+    border-radius: 30px;
+    width: 160px;
+    font-size: 17;
 }
