@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+.section-service .section-header {
+    text-align: center;
+}
+
+.section-header h1 {
+    margin: 30px 0 10px 0;
+    font-size: 30px;
+}
+
+.section-header span {
+    color: rgb(187, 212, 107);
+}
+
+.section-heade p {
+    font-size: smaller;
+    margin: 0;
+}
+
+.card-container article {
+    width: 300px;
+    background-color: rgb(226, 226, 226);
+}
+.card-container{
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+
+}
+
+.card-container img {
+    width: 100%;
+}
+
+.card-container article p {
+    line-height: 1.6;
+    margin: 15px 15px
+}
+
+.card-container h1 {
+    margin: 15px 15px;
+}
+
+.card-container button {
+    background-color: rgb(164, 198, 57);
+    border: 0;
+    width: 120px;
+    padding: 10px;
+    border-radius: 30px;
+    margin: 10px 15px 20px;
+}
