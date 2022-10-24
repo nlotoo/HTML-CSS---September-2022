@@ -1,1 +1,53 @@
 /* TODO: Add the responsive styles here */
+@media only screen and (max-width: 600px) {
+
+    .parallax-window,
+    .placeholder {
+        min-height: 220px;
+    }
+
+    .tm-nav {
+        position: relative;
+        left: 200px;
+    }
+
+    .tm-section-title {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-left: 0;
+    }
+
+    /* .tm-galery{
+        display: flex;
+        justify-content: center
+    } */
+    .row {
+        justify-content: center;
+        display: unset;
+        margin-left: 0;
+        
+    }
+
+    .tm-gallery-page {
+        margin: 0;
+
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .tm-gallery {
+        margin-left: 0px;
+
+    }
+
+    .tm-description-figure {
+        width: 108%;
+    }
+
+    .tm-nav-ul {
+        justify-content: unset;
+    }
+
+}
