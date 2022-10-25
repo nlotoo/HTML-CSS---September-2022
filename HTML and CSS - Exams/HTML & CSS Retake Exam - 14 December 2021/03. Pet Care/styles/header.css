@@ -1,0 +1,30 @@
+.top-navigation {
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    border: 1px solid red;
+    align-items: center;
+    height: 70px;
+}
+
+ul li {
+    font-size: larger;
+    margin: 5px;
+    display: inline;
+}
+
+ul li:last-child {
+    margin-right: 30px;
+}
+
+.header-content .background-header .header-bg{
+    width: 100%;
+    position: relative;
+}
+
+.header-content .background-header .header-dog {
+    position: absolute;
+    top: 22em;
+    left: 39em;
+    width: 40%;
+}
