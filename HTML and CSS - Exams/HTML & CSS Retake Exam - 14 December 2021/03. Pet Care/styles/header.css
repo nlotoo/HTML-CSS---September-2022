@@ -1,7 +1,7 @@
 .top-navigation {
     display: flex;
     justify-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     border: 1px solid red;
     align-items: center;
     height: 70px;
@@ -17,14 +17,59 @@ ul li:last-child {
     margin-right: 30px;
 }
 
-.header-content .background-header .header-bg{
+.header-content .background-header .header-bg {
     width: 100%;
     position: relative;
 }
 
 .header-content .background-header .header-dog {
     position: absolute;
-    top: 22em;
-    left: 39em;
-    width: 40%;
+    top: 7em;
+    left: 25em;
+    width: 57%;
+}
+
+.header-content {
+    position: relative;
+}
+
+.header-content .header-contact-us-form {
+    position: absolute;
+    top: 12rem;
+    left: 12rem;
+    z-index: 1111;
+}
+
+
+.header-heading-2 {
+    color: white;
+    margin: 0;
+    font-weight: 600;
+    font-size: 70px;
+}
+
+
+
+.header-heading {
+    color: white;
+    font-weight: 300;
+    font-size: 75px;
+    margin: 0;
+    line-height: 0.8;
+}
+
+.header-content .header-contact-us-form p {
+    color: white;
+    line-height: 2;
+    width: 305px;
+}
+
+.header-content .header-contact-us-form button {
+
+    border: 0;
+    font-weight: 600;
+    width: 150px;
+    border-radius: 30px;
+    padding: 15px;
+    color: rgb(242, 74, 32);
 }
