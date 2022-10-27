@@ -4,7 +4,7 @@
 
 .services h1 {
     text-align: center;
-    font-size: 40px;
+    font-size: 3rem;
 }
 
 .services p {
@@ -17,7 +17,8 @@
 .service-cards {
     display: flex;
     justify-content: center;
-    gap:40px
+    gap: 3rem;
+    margin: 6rem;
 }
 
 .service-cards section {
@@ -37,12 +38,31 @@
     border-left: 0;
 }
 
-.service-cards section:nth-child(1){
+.service-cards section:nth-child(1),
+.service-cards section:nth-child(2),
+.service-cards section:nth-child(3) {
     position: relative;
 }
 
-.service-cards section:nth-child(1) img:nth-child(1) {
+.service-cards section:nth-child(1) img:nth-child(1),
+.service-cards section:nth-child(2) img:nth-child(1)
+ {
     position: absolute;
-    top:0;
-    left: 50%;
+    top: 22%;
+    left: 36%;
+}
+
+.service-cards section:nth-child(3) img:nth-child(1) {
+    position: absolute;
+    top: 22%;
+    left: 40%;
+}
+
+
+.service-cards section h1 {
+    font-size: 26px;
+}
+
+.service-cards section p {
+    width: 100%;
 }
