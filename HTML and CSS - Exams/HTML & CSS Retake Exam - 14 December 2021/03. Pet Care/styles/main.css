@@ -66,3 +66,36 @@
 .service-cards section p {
     width: 100%;
 }
+
+.about-us-slide {
+    display: flex;
+    align-items: center;
+}
+
+.about-us-slide img {
+    margin-left: 12rem;
+}
+
+.about-us-slide .about-us-headding1 {
+    font-size: 60px;
+    font-weight: 400;
+    margin: 0;
+}
+.about-us-slide .about-us-headding2 {
+    font-size: 60px;
+    margin: 0;
+
+}
+.about-us-slide p {
+    width: 55%;
+}
+
+.orange-btn {
+    border: 0;
+    font-weight: 600;
+    width: 150px;
+    border-radius: 30px;
+    padding: 15px;
+    background-color: rgb(242, 74, 32);
+    color: white;
+}
