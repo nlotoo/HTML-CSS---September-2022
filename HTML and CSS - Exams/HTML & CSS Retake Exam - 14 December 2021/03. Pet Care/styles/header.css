@@ -64,7 +64,7 @@ ul li:last-child {
     width: 305px;
 }
 
-.header-content .header-contact-us-form .primary-button {
+.primary-button {
 
     border: 0;
     font-weight: 600;

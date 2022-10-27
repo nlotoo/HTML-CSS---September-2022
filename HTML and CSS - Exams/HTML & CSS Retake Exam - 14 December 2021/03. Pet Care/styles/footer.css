@@ -1,0 +1,33 @@
+.footer-container img {
+    width: 100%;
+}
+
+.footer-container {
+    position: relative;
+    color: white;
+}
+
+.container-content {
+    position: absolute;
+    top: 15%;
+    left: 22%;
+    text-align: center;
+
+}
+
+.container-content h1 {
+    font-size: xxx-large;
+    font-weight: 500;
+}
+
+.container-content p {
+    width: 60%;
+    margin: auto;
+}
+.contacts {
+    font-size: 18px;
+    margin: 30px;
+}
+.site-map {
+    color: black;
+}
