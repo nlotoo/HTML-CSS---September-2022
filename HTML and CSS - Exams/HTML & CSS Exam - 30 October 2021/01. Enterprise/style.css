@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+.container {
+    border: 1px solid red;
+    display: flex;
+    position: relative;
+}
+
+img {
+    width: 25%;
+}
+
+.container .heading-p {
+    font-size: x-small;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.container .container-desc {
+    width: 65%;
+    color: grey;
+    line-height: 1.5;
+}
+
+.contact-us-btn {
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    padding: 10px;
+    background-color: rgb(120, 110, 255);
+}
+
+.learn-more-btn {
+
+    border-radius: 3px;
+    border: 1px solid black;
+    color: black;
+    padding: 10px;
+}
+
+.container-text {
+    width: 35%;
+    position: relative;
+    left: 90px;
+    top: 90px;
+}
