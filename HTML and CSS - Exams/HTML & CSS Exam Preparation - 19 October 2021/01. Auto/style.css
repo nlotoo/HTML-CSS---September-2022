@@ -1,0 +1,49 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+.task-container {
+    display: flex;
+    padding: 50px 100px;
+    align-items: center;
+}
+
+.task-container .section-text-content .text-content-heading {
+    font-size: 28px;
+}
+
+.task-container .section-text-content .text-content-p {
+    width: 90%;
+    color: grey;
+}
+
+.task-container .section-text-content .sub-section {
+    display: flex;
+    align-items: center;
+}
+
+.task-container .section-text-content .sub-section img {
+    height: 60px;
+    margin: 10px
+}
+
+.task-container .section-text-content .sub-section .content p {
+    margin: 0;
+    padding: 0;
+}
+.task-container .section-text-content .sub-section .content h1 {
+    margin: 0;
+}
