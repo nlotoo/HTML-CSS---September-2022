@@ -151,8 +151,53 @@
     background-color: rgb(239, 239, 239);
 }
 
-.first-section-head h1 {
+.fith-section-head h1 {
+    font-size: 37px;
     text-align: center;
     padding-top: 100px;
-    font-size: 50px;
 }
+
+.fith-section-head h1 span {
+    font-weight: 100;
+}
+
+
+.fith-section-head p {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    margin-bottom: 50px;
+    font-style: italic;
+}
+
+.contact-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+
+
+}
+
+.contac-form-head input {
+    width: 240px;
+    margin: 0px 10px;
+    padding: 10px;
+    background-color: transparent;
+}
+
+.contact-form textarea {
+    background-color: transparent;
+    resize: none;
+    border: 2px solid black;
+}
+
+.contact-form button {
+    color: white;
+    border: 0;
+    background-color: black;
+    padding: 10px;
+    width: 38%;
+}
+
