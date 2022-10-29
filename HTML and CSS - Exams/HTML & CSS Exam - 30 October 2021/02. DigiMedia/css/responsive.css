@@ -1,1 +1,51 @@
+@media only screen and (max-width: 600px) {
+    .navbar {
+        justify-content: center;
+    }
 
+    .collapse .navbar-collapse {
+        display: none;
+    }
+
+    .hero img {
+        border: 1px solid red;
+        display: none;
+    }
+
+    .hero h1 {
+        margin-top: 50px;
+    }
+
+    .container {
+        text-align: center;
+    }
+
+    .hero-btns {
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .row {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+
+    }
+
+    .service-box {
+        text-align: left;
+    }
+
+    .col-sm-6 {
+        max-width: none;
+    }
+
+    .contact {
+        max-height: none;
+    }
+
+}
